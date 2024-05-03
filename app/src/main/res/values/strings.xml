@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MobApp CPS</string>
+    <string name="loading">Loadingâ€¦</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_analyze">Analyze</string>
+    <string name="lbl_your_email">Your email</string>
+    <string name="msg_safeguard_your_skin2">Safeguard your skin </string>
+    <string name="msg_our_checker_app">"Our checker app  offers a vital tool for safeguarding your skin's health and vitality. Our advanced scanner empowers you to comprehensively assess your skin, detecting potential signs of skin cancer early on"</string>
+    <string name="msg_sign_up_with_email2">Sign up with Email</string>
+    <string name="msg_sign_up_with_email">Sign up with  email</string>
+    <string name="msg_existing_account">Existing account?</string>
+    <string name="msg_muhammad_haikal">Muhammad Haikal Anwar
+1101223045
+TT-46-11</string>
+    <string name="msg_confirm_password">Confirm Password</string>
+    <string name="msg_sayyid_izzuddin">Sayyid Izzuddin Mubarok
+1101213340
+TT-45-09</string>
+    <string name="lbl_log_in">Log in</string>
+    <string name="lbl_enter">Enter</string>
+    <string name="lbl_dermguard">Dermguard</string>
+    <string name="lbl_your_name">Your name</string>
+    <string name="lbl_latest_news">Latest News</string>
+    <string name="msg_alya_mafira_110">Alya Mafira
+1101223240
+TT-46-08</string>
+    <string name="msg_authenticator_code">Authenticator Code</string>
+    <string name="lbl_admin_panel">Admin Panel</string>
+    <string name="msg_rayhan_syailend">Rayhan Syailendra
+1101220096
+TT-46-07</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_your_image_here">Your Image Here</string>
+    <string name="lbl_our_team">Our Team</string>
+    <string name="msg_dokter_kaget_makin">Dokter Kaget Makin Banyak Usia Muda yang Kena Kanker, Begini Temuannya\u2028</string>
+    <string name="lbl_with">with </string>
+    <string name="msg_welcome_sign_in">Welcome! Sign in using your email to continue us</string>
+    <string name="lbl_upload_image">Upload Image</string>
+    <string name="msg_log_in_to_dermguard">Log in to Dermguard</string>
+    <string name="msg_gedung_kanker_rsd">Gedung Kanker RSD Mangusada Tunggu Rp 180 Miliar Cair untuk Alat Radioterapi\u2028</string>
+    <string name="msg_create_an_account">Create an account</string>
+    <string name="msg_non_cancer">Non-Cancer = ...%</string>
+    <string name="msg_safeguard_your_skin">Safeguard your skin  with Dermguard</string>
+    <string name="lbl_cancer">Cancer = ...%</string>
+
+</resources>

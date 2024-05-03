@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout android:id="@+id/linearSignInOne"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleteal_400">
+        <androidx.appcompat.widget.Toolbar
+            android:gravity="center_horizontal"
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <ImageView android:id="@+id/imageVector190One"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_24pxv"
+                android:layout_marginEnd="@dimen/_333pxh"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_marginTop="@dimen/_24pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_vector_190"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_vector_190"/>
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout android:id="@+id/linearColumnline42str"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_43pxv"
+            android:paddingEnd="@dimen/_23pxh"
+            android:paddingStart="@dimen/_23pxh" android:paddingTop="@dimen/_43pxv">
+            <FrameLayout android:id="@+id/frameLoginuihut"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_23pxv" android:layout_width="@dimen/_171pxh">
+                <View android:background="@color/teal_300_01"
+                    android:id="@+id/viewLine42stroke"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_8pxv"
+                    android:layout_marginBottom="@dimen/_1pxv" android:layout_width="@dimen/_56pxh"/>
+                <TextView android:ellipsize="end"
+                    android:gravity="top|start"
+                    android:id="@+id/txtLoginto"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_5pxh"
+                    android:singleLine="true"
+                    style="@style/txtOutfitbold18" tools:text="@string/msg_log_in_to_dermguard"/>
+            </FrameLayout>
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txtWelcomesignin"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                style="@style/txtOutfitregular14" tools:text="@string/msg_welcome_sign_in"/>
+            <View android:id="@+id/viewView"
+                android:layout_height="@dimen/_172pxh" android:layout_width="@dimen/_70pxh"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtYouremail"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/lbl_your_email"/>
+            <EditText
+                android:id="@+id/edt_email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtPassword"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_27pxv"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/lbl_password"/>
+            <EditText
+                android:id="@+id/edt_password_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="numberPassword" />
+            <View android:id="@+id/viewViewOne"
+                android:layout_height="@dimen/_167pxv" android:layout_width="@dimen/_322pxh"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnLogin"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_42pxv"
+                android:layout_marginBottom="@dimen/_36pxv"
+                android:layout_marginEnd="@dimen/_4pxh"
+                android:layout_marginStart="@dimen/_3pxh"
+                android:layout_width="@dimen/_322pxh"
+                android:lineSpacingExtra="@dimen/_8pxh"
+                android:paddingBottom="@dimen/_9pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_9pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_log_in"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_1" tools:text="@string/lbl_log_in"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

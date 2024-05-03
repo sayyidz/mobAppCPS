@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "544510013900",
+    "project_id": "mobapp-cps",
+    "storage_bucket": "mobapp-cps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544510013900:android:1f3c4a4879d8cfe2fc6d69",
+        "android_client_info": {
+          "package_name": "com.example.mobappcps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCMUJnyMgyvkcWq8QBOxb07XW8r2HYJWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

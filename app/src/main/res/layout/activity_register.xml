@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="binding"
+            type="com.example.mobappcps.databinding.ActivityRegisterBinding" />
+    </data>
+    <LinearLayout android:id="@+id/linearColumnvector190One"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_1pxv"
+        android:paddingTop="@dimen/_1pxv" style="@style/groupStyleteal_400">
+        <androidx.appcompat.widget.Toolbar
+            android:gravity="center_horizontal"
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <ImageView android:id="@+id/imageVector190One"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_24pxv"
+                android:layout_marginEnd="@dimen/_333pxh"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_marginTop="@dimen/_24pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_vector_190"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_vector_190"/>
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout android:id="@+id/linearSignup"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_41pxv"
+            android:paddingEnd="@dimen/_23pxh"
+            android:paddingStart="@dimen/_23pxh" android:paddingTop="@dimen/_41pxv">
+            <FrameLayout android:id="@+id/frameSignupuihut"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_23pxv" android:layout_width="@dimen/_165pxh">
+                <View android:background="@color/teal_300"
+                    android:id="@+id/viewLine42stroke"
+                    android:layout_gravity="bottom|end"
+                    android:layout_height="@dimen/_8pxv"
+                    android:layout_marginBottom="@dimen/_3pxv" android:layout_width="@dimen/_50pxh"/>
+
+                <TextView
+                    android:id="@+id/txtSignupwith"
+                    style="@style/txtPlusJakartaSansplusjakartasansbold18"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"
+                    android:gravity="top|start"
+                    android:lineSpacingExtra="@dimen/_5pxh"
+                    android:singleLine="true"
+                    tools:text="@string/msg_sign_up_with_email2" />
+            </FrameLayout>
+            <View android:id="@+id/viewView"
+                android:layout_height="@dimen/_114pxh" android:layout_width="@dimen/_71pxh"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtYourname"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/lbl_your_name"/>
+            <EditText
+                android:id="@+id/edt_name_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtYouremail"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_27pxv"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/lbl_your_email"/>
+
+            <EditText
+                android:id="@+id/edt_email_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtPassword"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_27pxv"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/lbl_password"/>
+            <EditText
+                android:id="@+id/edt_password_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword" />
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtConfirm"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_27pxv"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/msg_confirm_password"/>
+            <EditText
+                android:id="@+id/edt_confirm_password_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:inputType="textPassword" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnRegister"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_35pxv"
+            android:layout_marginEnd="@dimen/_27pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_8pxh"
+            android:paddingBottom="@dimen/_9pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_9pxv" android:singleLine="true"
+            android:text="@string/msg_create_an_account"
+            android:textAllCaps="false" style="@style/btnSolidRounded_1" tools:text="@string/msg_create_an_account"/>
+    </LinearLayout>
+</layout>
