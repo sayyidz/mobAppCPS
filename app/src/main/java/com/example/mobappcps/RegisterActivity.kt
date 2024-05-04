@@ -22,6 +22,11 @@ class RegisterActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+        binding.imageVectorRegister.setOnClickListener {
+            val intent = Intent(this, OnBoardingActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.btnRegister.setOnClickListener {
             val name = binding.edtNameRegister.text.toString()
             val email = binding.edtEmailRegister.text.toString()
