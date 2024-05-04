@@ -24,7 +24,7 @@
 
         <activity
             android:name=".OnBoardingActivity"
-            android:exported="true">
+            android:exported="false">
 
         </activity>
         <activity
