@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
-    <data>
-        <variable
-            name="binding"
-            type="com.example.mobappcps.databinding.ActivityRegisterBinding" />
-    </data>
+
     <LinearLayout android:id="@+id/linearColumnvector190One"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
@@ -37,12 +33,7 @@
             android:paddingStart="@dimen/_23pxh" android:paddingTop="@dimen/_41pxv">
             <FrameLayout android:id="@+id/frameSignupuihut"
                 android:layout_gravity="center_horizontal"
-                android:layout_height="@dimen/_23pxv" android:layout_width="@dimen/_165pxh">
-                <View android:background="@color/teal_300"
-                    android:id="@+id/viewLine42stroke"
-                    android:layout_gravity="bottom|end"
-                    android:layout_height="@dimen/_8pxv"
-                    android:layout_marginBottom="@dimen/_3pxv" android:layout_width="@dimen/_50pxh"/>
+                android:layout_height="@dimen/_30pxv" android:layout_width="@dimen/_165pxh">
 
                 <TextView
                     android:id="@+id/txtSignupwith"
@@ -51,10 +42,10 @@
                     android:layout_height="39dp"
                     android:layout_gravity="center"
                     android:ellipsize="end"
-                    android:gravity="top|start"
+                    android:gravity="center_vertical|start"
                     android:lineSpacingExtra="@dimen/_5pxh"
                     android:singleLine="true"
-                    tools:text="@string/msg_sign_up_with_email2" />
+                    android:text="@string/msg_sign_up_with_email2" />
             </FrameLayout>
             <View android:id="@+id/viewView"
                 android:layout_height="@dimen/_114pxh" android:layout_width="@dimen/_71pxh"/>
@@ -66,7 +57,7 @@
                 android:letterSpacing="0.01"
                 android:lineSpacingExtra="@dimen/_4pxh"
                 android:singleLine="true"
-                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/lbl_your_name"/>
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" android:text="@string/lbl_your_name"/>
             <EditText
                 android:id="@+id/edt_name_register"
                 android:layout_width="match_parent"
@@ -83,7 +74,7 @@
                 android:letterSpacing="0.01"
                 android:lineSpacingExtra="@dimen/_4pxh"
                 android:singleLine="true"
-                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/lbl_your_email"/>
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" android:text="@string/lbl_your_email"/>
 
             <EditText
                 android:id="@+id/edt_email_register"
@@ -101,7 +92,7 @@
                 android:letterSpacing="0.01"
                 android:lineSpacingExtra="@dimen/_4pxh"
                 android:singleLine="true"
-                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/lbl_password"/>
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" android:text="@string/lbl_password"/>
             <EditText
                 android:id="@+id/edt_password_register"
                 android:layout_width="match_parent"
@@ -117,7 +108,7 @@
                 android:letterSpacing="0.01"
                 android:lineSpacingExtra="@dimen/_4pxh"
                 android:singleLine="true"
-                style="@style/txtPlusJakartaSansplusjakartasansmedium14" tools:text="@string/msg_confirm_password"/>
+                style="@style/txtPlusJakartaSansplusjakartasansmedium14" android:text="@string/msg_confirm_password"/>
             <EditText
                 android:id="@+id/edt_confirm_password_register"
                 android:layout_width="match_parent"

@@ -65,7 +65,7 @@ class RegisterActivity : AppCompatActivity() {
 
             //Validasi confirm password
             if (confirmPassword != password) {
-                binding.edtPasswordRegister.error = "Password Minimal 6 Karakter"
+                binding.edtPasswordRegister.error = "Password Tidak Sama"
                 binding.edtPasswordRegister.requestFocus()
                 return@setOnClickListener
             }

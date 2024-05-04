@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/linearProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/groupStyleteal_400">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:gravity="center_horizontal"
+            app:contentInsetStart="0dp">
+
+            <LinearLayout
+                android:id="@+id/linearColumnadminpane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5pxv"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:gravity="start"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearRowadminpanel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_28pxh"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/backToHomeFromProfile"
+                        android:layout_width="@dimen/_32pxh"
+                        android:layout_height="@dimen/_32pxh"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/rectangle_bg_white_a700_radius_16"
+                        android:paddingHorizontal="@dimen/_11pxh"
+                        android:paddingVertical="@dimen/_11pxv"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_group_14"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/txtAdminpanel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_marginStart="@dimen/_11pxh"
+                        android:layout_marginTop="@dimen/_4pxv"
+                        android:gravity="center_vertical"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        style="@style/txt"
+                        tools:text="@string/lbl_admin_panel" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/lineLinefiveOne"
+                    android:layout_width="@dimen/_375pxh"
+                    android:layout_height="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:background="@color/white_A700" />
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/linearColumnourteam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_33pxv"
+            android:paddingBottom="@dimen/_33pxv"
+            android:paddingStart="@dimen/_13pxh"
+            android:paddingEnd="@dimen/_13pxh">
+
+            <ImageView
+                android:id="@+id/imageImagefiftyfive"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_229pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_image_2"
+                android:gravity="center_horizontal"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtOurteam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_36pxv"
+                android:gravity="center_horizontal"
+                android:ellipsize="end"
+                android:singleLine="true"
+                style="@style/txtInterregular16"
+                android:text="@string/lbl_our_team" />
+
+            <View
+                android:id="@+id/lineLinesixOne"
+                android:layout_width="@dimen/_346pxh"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginTop="@dimen/_13pxv"
+                android:background="@color/white_A700"
+                android:layout_gravity="center_horizontal" />
+
+            <!-- LinearLayout sebagai pengganti ListView -->
+            <LinearLayout
+                android:id="@+id/linearUserProfileContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Tambahkan item-item user profile secara dinamis di sini -->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
