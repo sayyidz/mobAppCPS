@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.mobappcps">
-
-    <!-- Permissions if needed -->
-    <uses-permission android:name="android.permission.INTERNET" />
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -16,57 +12,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobAppCPS"
         tools:targetApi="31">
-
-        <!-- Splash Screen Activity -->
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- Onboarding Activity -->
         <activity
             android:name=".OnBoardingActivity"
-            android:exported="true" />
+            android:exported="true">
 
-        <!-- Analyze Activity -->
+        </activity>
         <activity
             android:name=".AnalyzeActivity"
-            android:exported="true" />
-
-        <!-- Profile Activity -->
+            android:exported="false" />
         <activity
             android:name=".ProfileActivity"
             android:exported="false" />
-
-        <!-- Home Activity -->
         <activity
             android:name=".HomeActivity"
-            android:exported="true" />
-
-        <!-- Reset Password Activity -->
+            android:exported="false" />
         <activity
             android:name=".ResetPasswordActivity"
             android:exported="false" />
-
-        <!-- Register Activity -->
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
-
-        <!-- Login Activity -->
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
-
-        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
     </application>
 
 </manifest>

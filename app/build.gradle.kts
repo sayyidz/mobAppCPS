@@ -37,7 +37,6 @@ android {
     buildFeatures{
         viewBinding = true
         dataBinding = true
-        mlModelBinding = true
     }
 }
 
@@ -49,16 +48,9 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.auth)
-    implementation(libs.tensorflow.lite.support)
-    implementation(libs.tensorflow.lite.metadata)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
     implementation("com.google.firebase:firebase-analytics")
-    implementation ("com.squareup.retrofit2:retrofit:2.6.2")
-    implementation ("com.squareup.retrofit2:converter-gson:2.6.2:")
-    implementation ("androidx.recyclerview:recyclerview:1.1.0")
-    implementation ("androidx.cardview:cardview:1.0.0")
-
 }

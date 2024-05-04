@@ -42,5 +42,6 @@ TT-46-07</string>
     <string name="msg_non_cancer">Non-Cancer = ...%</string>
     <string name="msg_safeguard_your_skin">Safeguard your skin  with Dermguard</string>
     <string name="lbl_cancer">Cancer = ...%</string>
+    <string name="default_web_client_id">544510013900-gfm5mu8ge48tivlrrviobjth8dolce3u.apps.googleusercontent.com</string>
 
 </resources>
