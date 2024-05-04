@@ -32,13 +32,12 @@ class AnalyzeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(binding.root)
+        setContentView(R.layout.activity_analyze)
 
         binding.back.setOnClickListener {
             val intentBackToHome = Intent(this, HomeActivity::class.java)
             startActivity(intentBackToHome)
-            finish() // Optionally, you can finish the current activity to remove it from the back stack
         }
-
 
         btnUploadImage = findViewById(R.id.btnUploadImage)
         btnAnalyze = findViewById(R.id.btnAnalyze)
