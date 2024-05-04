@@ -17,7 +17,7 @@ class ProfileActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.backToHomeFromProfile.setOnClickListener {
-            val intentBackToHome = Intent(this, LoginActivity::class.java)
+            val intentBackToHome = Intent(this, HomeActivity::class.java)
             startActivity(intentBackToHome)
         }
     }

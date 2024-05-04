@@ -5,121 +5,88 @@
 
     <LinearLayout
         android:id="@+id/linearAnalisis"
+        style="@style/groupStyleteal_400"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        style="@style/groupStyleteal_400">
+        android:layout_height="774dp"
+        android:orientation="vertical">
 
-        <FrameLayout
-            android:id="@+id/frameStack"
-            android:layout_width="@dimen/_313pxh"
-            android:layout_height="@dimen/_218pxv"
-            android:layout_gravity="center_horizontal">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            app:contentInsetStart="0dp" />
 
-            <ImageView
-                android:id="@+id/imageImagefourOne"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_218pxh"
-                android:layout_gravity="center"
-                android:scaleType="fitXY"
-                android:src="@drawable/img_image_2"
-                tools:ignore="ContentDescription" />
-
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbarToolbar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|center"
-                app:contentInsetStart="0dp">
-
-                <ImageButton
-                    android:id="@+id/btnIconbutton"
-                    android:layout_width="@dimen/_50pxh"
-                    android:layout_height="@dimen/_50pxh"
-                    android:layout_marginStart="@dimen/_32pxh"
-                    android:layout_marginEnd="@dimen/_310pxh"
-                    android:background="@drawable/rectangle_bg_white_a700_radius_16"
-                    android:paddingHorizontal="@dimen/_11pxh"
-                    android:paddingVertical="@dimen/_11pxv"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/img_group_14"
-                    tools:ignore="ContentDescription" />
-            </androidx.appcompat.widget.Toolbar>
-
-        </FrameLayout>
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="@dimen/_32pxh"
+            android:layout_height="@dimen/_32pxh"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/rectangle_bg_white_a700_radius_16"
+            android:paddingHorizontal="@dimen/_11pxh"
+            android:paddingVertical="@dimen/_11pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_group_14"
+            tools:ignore="ContentDescription" />
 
         <LinearLayout
             android:id="@+id/linearColumnanalyze"
+            style="@style/groupStylewhite_A700cornerRadius"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="656dp"
             android:orientation="vertical"
-            android:paddingBottom="@dimen/_43pxv"
-            android:paddingEnd="@dimen/_24pxh"
             android:paddingStart="@dimen/_24pxh"
             android:paddingTop="@dimen/_43pxv"
-            style="@style/groupStylewhite_A700cornerRadius">
+            android:paddingEnd="@dimen/_24pxh"
+            android:paddingBottom="@dimen/_43pxv">
 
-            <LinearLayout
-                android:id="@+id/linearColumn"
-                android:layout_width="wrap_content"
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_67pxh"
-                android:layout_marginStart="@dimen/_77pxh"
-                android:layout_marginTop="@dimen/_86pxv"
-                android:orientation="vertical"
-                android:paddingBottom="@dimen/_73pxv"
-                android:paddingEnd="@dimen/_24pxh"
-                android:paddingStart="@dimen/_24pxh"
-                android:paddingTop="@dimen/_73pxv"
-                style="@style/groupStyleblue_gray_100_01">
-
-                <TextView
-                    android:id="@+id/txtYourimagehere"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/_6pxv"
-                    android:gravity="center_horizontal"
-                    android:lineSpacingExtra="@dimen/_8pxh"
-                    android:singleLine="true"
-                    android:text="@string/lbl_your_image_here"
-                    android:textAppearance="@style/txtPoppinsmedium16" />
-            </LinearLayout>
+                android:text=" Predict =   % cancer" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnUploadImage"
+                style="@style/btnSolidRounded_2"
                 android:layout_width="@dimen/_322pxh"
-                android:layout_height="@dimen/_42pxv"
+                android:layout_height="48dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/_82pxv"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:lineSpacingExtra="@dimen/_8pxh"
-                android:paddingBottom="@dimen/_9pxv"
-                android:paddingEnd="@dimen/_30pxh"
                 android:paddingStart="@dimen/_30pxh"
                 android:paddingTop="@dimen/_9pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingBottom="@dimen/_9pxv"
                 android:singleLine="true"
                 android:text="@string/lbl_upload_image"
-                android:textAllCaps="false"
-                style="@style/btnSolidRounded_2" />
+                android:textAllCaps="false" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnAnalyze"
+                style="@style/btnSolidRounded_2"
                 android:layout_width="@dimen/_322pxh"
-                android:layout_height="@dimen/_42pxv"
+                android:layout_height="48dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/_40pxv"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:lineSpacingExtra="@dimen/_8pxh"
-                android:paddingBottom="@dimen/_9pxv"
-                android:paddingEnd="@dimen/_30pxh"
                 android:paddingStart="@dimen/_30pxh"
                 android:paddingTop="@dimen/_9pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingBottom="@dimen/_9pxv"
                 android:singleLine="true"
                 android:text="@string/lbl_analyze"
-                android:textAllCaps="false"
-                style="@style/btnSolidRounded_2" />
+                android:textAllCaps="false" />
 
         </LinearLayout>
 

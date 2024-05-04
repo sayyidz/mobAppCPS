@@ -13,8 +13,9 @@ import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
 
-    lateinit var binding : ActivityLoginBinding
-    lateinit var auth : FirebaseAuth
+
+    lateinit var binding: ActivityLoginBinding
+    lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityLoginBinding.inflate(layoutInflater)
@@ -34,27 +35,27 @@ class LoginActivity : AppCompatActivity() {
             val password = binding.edtPasswordLogin.text.toString()
 
             //Validasi email
-            if (email.isEmpty()){
+            if (email.isEmpty()) {
                 binding.edtEmailLogin.error = "Email Harus Diisi"
                 binding.edtEmailLogin.requestFocus()
                 return@setOnClickListener
             }
 
             //Validasi email tidak sesuai
-            if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+            if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
                 binding.edtPasswordLogin.error = "Email Tidak Valid"
                 binding.edtPasswordLogin.requestFocus()
                 return@setOnClickListener
             }
 
             //Validasi password
-            if (password.isEmpty()){
+            if (password.isEmpty()) {
                 binding.edtPasswordLogin.error = "Password Harus Diisi"
                 binding.edtPasswordLogin.requestFocus()
                 return@setOnClickListener
             }
 
-            LoginFirebase(email,password)
+            LoginFirebase(email, password)
         }
     }
 

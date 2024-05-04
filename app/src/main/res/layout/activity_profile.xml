@@ -45,18 +45,6 @@
                         android:src="@drawable/img_group_14"
                         tools:ignore="ContentDescription" />
 
-                    <TextView
-                        android:id="@+id/txtAdminpanel"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/_4pxv"
-                        android:layout_marginStart="@dimen/_11pxh"
-                        android:layout_marginTop="@dimen/_4pxv"
-                        android:gravity="center_vertical"
-                        android:ellipsize="end"
-                        android:singleLine="true"
-                        style="@style/txt"
-                        tools:text="@string/lbl_admin_panel" />
                 </LinearLayout>
 
                 <View
@@ -120,6 +108,93 @@
 
         </LinearLayout>
 
-    </LinearLayout>
+        <!-- RelativeLayout for imageView3 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="99dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/img_1ab1a05d_05a5_4" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/imageView3"
+                android:text="Alya Mafira\n1101223240\nTT46-08" />
+        </RelativeLayout>
+
+        <!-- RelativeLayout for imageView5 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="99dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/img_whatsapp_image_2023_07_26" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/imageView5"
+                android:text="Muhammad Haikal Anwar\n1101223045\nTT46-11" />
+        </RelativeLayout>
+
+        <!-- RelativeLayout for imageView6 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="99dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/img_8030370b_0724_4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/imageView6"
+                android:text="Rayhan Syailendra\n1101220096\nTT46-07" />
+        </RelativeLayout>
+
+        <!-- RelativeLayout for imageView7 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="99dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/img_dsc_0422_1" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/imageView7"
+                android:text="Sayyid Izzudin Mubarok\n1101213340\nTT-45-09" />
+        </RelativeLayout>
+
+    </LinearLayout>
 </layout>
